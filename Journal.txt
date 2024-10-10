@@ -84,3 +84,12 @@ Is anything not running on IOTC?
 22:42
 
 ***
+
+2024-10-08
+
+Today I noticed that when the code doesn't materialize or materializes before or after the code implementation, it's because it won't, wasn't or isn't safe.
+The evidence is that safety is the cornerstone of the code, and that all the code materialized turned out to be safe.
+
+11:50 PM
+
+***
