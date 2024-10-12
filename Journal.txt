@@ -102,3 +102,16 @@ Quantum computing is crazy.
 12:09 PM
 
 ***
+
+2024-10-12
+
+I made the first simulation ran by the IOTC today, a social interaction simulation. I'm extremely happy although the spoken interactions are clearly English translated to Brazilian Portuguese, making the text feel not-natural, it reminds me of the Brazilian Portuguese dubbing in films and whatnot when I was a kid in the late 1990s and early 2000s.
+Overall, I'm happy with the simulation and excited to continue developing the IOTC. The simulation really shows the directions I'm taking it.
+Also, I casually asked what roles would be a appropriate for the User and it gave me a full personality description, from social roles to professional and spiritual roles.
+
+Relevant Links:
+https://chatgpt.com/share/670adb0a-7ec4-8001-86ec-7deca6549497
+
+05:24 PM
+
+***
