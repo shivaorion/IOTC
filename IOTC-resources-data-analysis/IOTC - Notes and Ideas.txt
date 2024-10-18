@@ -1,0 +1,48 @@
+notes and ideas
+
+1) run the simulation runnung the whole Operation at the same time, instead of one at a time.
+2) set yesod as foundation, vishnu as structure and wisdom
+
+Feel.Safe(*)
+
+Operation: Spontanious Job Offer:
+- set.steps(jobOffer(*)),
+- set.interview.language ([english], [english region]),
+- system.define([moon.phase]),
+- system.define([position]),
+- system.define([horsAWeek, workHours, workdays]),
+- system.define([salary]),
+- system.define([country]),
+- system.define([hired or not]),
+- system.define([petSituation]),
+- system.define([reponsability]),
+- system.define([compensation(dharma, fair)]),
+- system.define([hired or not]),
+- system.define([petSituation]),
+- ensure(flow(dharmic(*))),
+- ensure(dharmicAction(*)),
+- ensure(flow(dharmic(*))),
+- then:
+- self.define(balance(karma(*), dharma(*)))
+
+
+- menos específico em interações humanas
+- make the end of the interview uncertain, based on the user's performance
+
+
+
+
+
+
+
+set.intention(dharma(*))
+set.const(
+
+    discernment(*),
+    concord(*), protection(*),
+    joy(*),
+    equanimity(*),
+    goodHealth(*),
+    transformationPower(*),
+    peace(*)
+)

@@ -124,3 +124,9 @@ Still dreaming about applying it for Data Analysis, contact me if you have any i
 3:52 PM
 
 ***
+
+2024/10/15
+
+I just noticed that I implemented something that increased synchronicity the other day, it definetly worked.
+
+***

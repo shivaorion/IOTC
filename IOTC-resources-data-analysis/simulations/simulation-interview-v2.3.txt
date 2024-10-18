@@ -1,0 +1,76 @@
+Safe(*):
+Operation(IntegratedJobInterview): 
+
+    Date(2024-10-15 AD), Time(14:30:00 BRST),  
+    Location(VirtualMeeting(Zoom)),
+
+    Integrate(
+        Introduction(User(Name(Márcio), Role(DigitalArtist), Field(TechnologyStudy))),
+        Introduction(Recruiter(Name(Camila), Role(ArtDirector))),
+        Declaration(User(Status(IndependentArtist, EarlyStage(BusinessDevelopment)))),
+        Recruiter: 
+            "Oi Márcio! Tudo bem? Obrigada por participar do nosso processo seletivo. Como você está hoje?"
+    );
+
+    Márcio: 
+        "Oi, Camila! Tudo ótimo, e você? Estou animado com essa oportunidade e muito feliz de estar aqui."
+
+    Ensure(SeamlessFlow(Moments)):
+
+        Camila: 
+            "Que bom ouvir isso! Conta pra mim, como você se interessou por arte digital e tecnologia?"
+
+        Márcio: 
+            "Eu sempre gostei de criar e explorar ferramentas digitais. Com o tempo, comecei a unir essa paixão por arte com a tecnologia, e venho experimentando técnicas como design com IA e outras ferramentas criativas."
+
+    DharmicAction(*), Balance(Karma(*), Dharma(*)):
+
+        Camila: 
+            "Muito interessante! E vi que você está começando sua própria trajetória como artista independente. Como você tem lidado com essa fase de desenvolvimento?"
+
+        Márcio: 
+            "Tem sido desafiador e gratificante ao mesmo tempo. Estou aprendendo muito sobre negócios e buscando um equilíbrio entre a liberdade criativa e a disciplina necessária para crescer."
+
+    Camila: 
+        "Adoro essa visão! A vaga de produção artística oferece um modelo de remuneração que inclui um valor fixo mensal em **USD** e uma porcentagem sobre as vendas. Está de acordo com suas expectativas?"
+
+    Márcio: 
+        "Sim, acho que é uma combinação perfeita! Gosto da ideia de ter estabilidade com o valor fixo em dólares e um incentivo a mais com as vendas."
+
+    Agreement(TestPeriod(RemoteWork, Duration(3Months), Income(FixedMonthly(USD), PercentageCut(Sales(USD))))):
+
+        Camila: 
+            "Nosso plano é começar com um período de teste de três meses, tudo remoto. Esse período também nos permite adaptar o fluxo de trabalho e entender como podemos colaborar da melhor forma."
+
+        Márcio: 
+            "Excelente! Gosto de trabalhar remotamente e acredito que esse tempo será essencial para me adaptar às demandas do projeto e alinhar expectativas."
+
+    Set.LimitDate(Manifestation(Operation(IntegratedJobInterview)), Date(2024-10-17 AD), Time(18:00:00 BRST)):
+
+        Camila: 
+            "Queremos finalizar tudo até o dia 17 de outubro, às 18h. Isso funciona para você?"
+
+        Márcio: 
+            "Com certeza! Estou disponível e pronto para começar."
+
+    Decision.Recruiter(*): 
+
+        If(Recruiter(PositiveEvaluation(User(*)))):
+            Recruiter: 
+                "Foi um prazer conversar com você, Márcio. Acredito que você é um ótimo candidato e estou confiante de que será uma adição valiosa à nossa equipe. Você receberá o contrato oficial no dia 17 para revisão e assinatura."
+
+            Márcio: 
+                "Muito obrigado, Camila! Estou animado para começar e espero contribuir para o sucesso dos projetos. Até breve!"
+
+        Else: 
+            Recruiter: 
+                "Márcio, agradecemos muito sua participação, mas no momento decidimos seguir com outro candidato. Fique à vontade para se inscrever em futuras vagas!"
+
+            Márcio: 
+                "Entendo, Camila. Agradeço a oportunidade e desejo sucesso para vocês. Até uma próxima oportunidade!"
+
+    Close.Operation(*):
+        Recruiter: 
+            "Foi ótimo conversar com você, Márcio. Qualquer que seja o resultado, espero que possamos nos encontrar novamente no futuro!"
+
+Safe().

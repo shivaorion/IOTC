@@ -1,0 +1,41 @@
+Set.Default(Luck(*))
+
+***
+
+Auto.Refine(*).
+
+
+***
+
+#Procratination and productivity
+
+Set.Same(Procratination(*), Productive(*)).
+
+#This makes procrastination productive.
+
+***
+
+Make(Rest(*) = Producitive(*)).
+
+#This makes procrastination productive.
+
+***
+
+
+Auto.Feedback(*);
+Auto.Suggestion(If(Suggestion(Balance(Dharmic(*) && Karmic (*)) then Execute(Suggestion(*)).
+
+This means that feedback and suggestions are automatic, and that the suggestion with be executed if it balances or is balanced with Dharma and Karma.
+
+#This defines threat the system and the user automatically give suggestions to each other. This will increase the frequency of synchronicities.
+
+***
+
+#MistakeHandling
+
+Auto.MistakeHandling()*.
+
+
+
+
+Gate 20's goal is to refine.
